@@ -1,0 +1,70 @@
+a {
+  text-decoration:none;
+}
+   .rightstr {
+    text-align: right;
+   }
+   .center {
+    text-align: center;
+    text-shadow: 1px 0 1px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 1px #000;
+   }
+  .obvod {
+    text-shadow: 0.5px 0 0.5px #000,
+    0 0.5px 0.5px #000,
+    -0.5px 0 0.5px #000,
+    0 -0.5px 0.5px #000;
+    text-decoration: none;
+}
+table {
+  width: 100%;
+}
+th {
+   width: 50%;
+}
+.abc {
+  position: relative;
+  opacity: 1;
+  bottom: 25px;
+}
+.close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+.close:hover {background: #e6e6ff;}
+textarea {
+    width: 90%; /* Ширина поля в процентах */
+    height: 90px; /* Высота поля в пикселах */
+    resize: none; /* Запрещаем изменять размер */
+   }
+.red {
+  border:  none;
+  text-align: left;
+  display:inline-block;
+    height: 28px;
+    vertical-align: middle;
+  }
+#submitB{
+border:none;
+padding:0;
+margin:0;
+font-size:15px;
+background-color:transparent;
+text-decoration: underline;
+}
+.avatar {
+    border-radius: 100px; /* Радиус скругления */
+    border: 1px solid white; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+image-rendering: pixelated;
+   }
+
+
